@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+
+        <!-- Theme -->
+        <theme>dark</theme>
+
+        <!-- Report Info -->
+        <documentTitle>Automation Execution Report</documentTitle>
+        <reportName>BDD Cucumber Test Report</reportName>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Timeline -->
+        <enableTimeline>true</enableTimeline>
+
+        <!-- Custom CSS (Optional Styling) -->
+        <css>
+            .badge-primary {
+                background-color: #1E90FF;
+            }
+        </css>
+
+        <!-- Custom JS (Optional) -->
+        <js>
+            console.log("Execution Completed Successfully");
+        </js>
+
+    </configuration>
+</extentreports>
